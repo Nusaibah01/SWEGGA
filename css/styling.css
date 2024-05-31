@@ -18,10 +18,7 @@ body {
 #main{
 	margin-left: 150px;
 }
-table{
-	border: solid black 1px ;
-    border-collapse: collapse;
-}
+
 #footer{
 	margin-top: .5ems;
 	border-top: 2px solid gray;
@@ -71,6 +68,10 @@ caption {
 	margin-bottom: 10px;
 	font-size: 150%;
 	color: #4766B8; }
+	table{
+		 
+		border-collapse: collapse;
+	}
 
 td, th {
 	border: 1px solid black;
@@ -79,6 +80,14 @@ td, th {
 	
 .alignRight {
 	text-align: right; }
+#maleQuantity{
+	width: 65px;
+	padding-left: 5px;
+}
+#femaleQuantity{
+	width: 65px;
+	padding-left: 5px;
+}
 
 	/* Nusaibah Charif */
 	/* console.log('Nusaibah Charif") */

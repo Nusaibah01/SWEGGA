@@ -2,7 +2,7 @@
 function calculateTotal() {
     let femaleQuantity = parseInt (document.getElementById("femaleQuantity").value)
     let maleQuantity = parseInt(document.getElementById("maleQuantity").value)
-    
+// Price of Jackets
     const femalePrice = 150.95
     const malePrice = 180.95
     
