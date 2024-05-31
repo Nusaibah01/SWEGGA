@@ -20,13 +20,13 @@
 		
 </div>
 	<div class="navigation">
-		<img src="graphics/links.gif" id="l" alt="links">
-		<map name="linkmap">
-			<area  coords="10,5 95,35" alt="Home" href="order.html">
-			<area  coords=" 105,5 190,35" alt="Services" href="services.html">
-			<area  coords="205,5 300,35" alt="Products" href="products.html">
-			<area  coords="310,5 440,35"  alt="Order" href="orderStatus.html" >
-			<area  coords=" 450,5 555,35 " alt="Contact Us"  href="contactUs.html" >
+		<img src="graphics/links.gif" id="l" alt="navbar" usemap="#navbar" >
+		<map name="linksmap">
+			<area shape="rect" coords="10,5 95,35" alt="Home" href="order.html">
+			<area  shape="rect" 105,5 190,35" alt="Services" href="pages/services.html">
+			<area shape="rect" coords="205,5 300,35" alt="Products" href="pages/products.html">
+			<area shape="rect" coords="310,5 440,35"  alt="Order" href="pages/orderStatus.html" >
+			<area shape="rect" coords=" 450,5 555,35 " alt="Contact Us"  href="pages/contactUs.html" >
 	
 		  </map> 
 
@@ -87,7 +87,7 @@
 			</tr>
 			<tr>
 			<td colspan="4">Click to confirm and process your order</td>
-			<td><button onclick="calculateTotal()">Total Price</button></td>
+			<td><button onclick="calculateTotal()" >Total Price</button></td>
 			<td id="totalPrice"></td>
 			</tr>
 			
