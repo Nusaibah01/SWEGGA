@@ -1,7 +1,7 @@
 //  calculation function
 function calculateTotal() {
-    let femaleQuantity = parseInt (document.getElementById("#femaleQuantity").value)
-    let maleQuantity = parseInt(document.getElementById("#maleQuantity").value)
+    let femaleQuantity = parseInt (document.getElementById("femaleQuantity").value)
+    let maleQuantity = parseInt(document.getElementById("maleQuantity").value)
     
     const femalePrice = 150.95
     const malePrice = 180.95
@@ -14,7 +14,7 @@ function calculateTotal() {
 
     // Displaying the total prices:
     // document.getElementById('totalPrice').innerHTML = "R"  + orderTotalPrice;
-    document.querySelector('#femaleTotal').innerHTML = (`R ${femaleTotal.toFixed(2)}`)
-    document.querySelector('#maleTotal').innerHTML = (`R ${maleTotal.toFixed(2)}`)
-    document.querySelector('#totalPrice').innerHTML = (`R ${totalPrice.toFixed(2)}`)
+    document.getElementById('femaleTotal').innerHTML = (`R ${femaleTotal.toFixed(2)}`)
+    document.getElementById('maleTotal').innerHTML = (`R ${maleTotal.toFixed(2)}`)
+    document.getElementById('totalPrice').innerHTML = (`R ${totalPrice.toFixed(2)}`)
 }
